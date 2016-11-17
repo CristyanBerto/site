@@ -1,10 +1,90 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 11/11/2016, 10:52:54
-    Author     : cristyan_berto
-*/
 
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333;
+    background-image: url("../img/plano.jpg");
+}
+
+p {
+    padding: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#header {
+    float: left;
+    height: 200px;
+    width: 1000px;
+}
+#header img {
+    width: 100%;
+}
+
+#navigation {
+    float: left;
+    height: 60px;
+    width: 1000px;
+    background-color: #00CED1;
+}
+
+#content {
+    float: left;
+    background: #FFFFFF;
+    width: 100%;
+}
+#aa {
+    float: left;
+    background: #FFFFFF;
+    width: 70%;
+}
+#bb {
+    float: right;
+    background: #FFFFFF;
+    width: 30%;
+}
+#bb img {
+    width: 100%;
+}
+
+#footer {
+    height: 40px;
+    width: 1000px;
+    background: #94fcf8;
+    clear: both;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 ;
+    overflow: hidden;
+    background-color: #94fcf8;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 75.9px;
+    text-decoration: none; 
+}
+
+li a:hover {
+    background-color: #FFFFFF;
+    color: #333;
+}
+ ul .active {
+    background-color: white;
+    color: black;
+}
