@@ -1,8 +1,7 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<body>
+Equipe Administrativa:<br>
+ Cristyan Pereira Berto.<br>
+ Vitor Hugo Simão.<br>
+ Douglas Tenfen de Oliveira.<br>
+ Eduardo Barcellos de Andrade.<br>
+</body>
