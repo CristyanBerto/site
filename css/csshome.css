@@ -1,0 +1,33 @@
+.titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+        div.img {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 200px;
+            opacity: 0.3;
+        }
+
+        div.img:hover{
+            border: 1px solid #777;
+            opacity: 1;
+        }
+
+        div.img img {
+            width: 100%;
+            height: auto;
+        }
+        div.desc  {
+            display: none;
+            padding: 15px;
+            text-align: center;
+        }
+         div.img:hover > div.desc  {
+            padding: 15px;
+            text-align: center;
+            display: block;
+        }
