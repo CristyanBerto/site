@@ -16,7 +16,7 @@ Equipe Administrativa:<br>
             Cristyan / Vendedor, Atendente<br>
             Douglas / Técnico de Hardware<br>
             Vitor / Técnito de Software<br>
-            Eduardo / Dono da empresa <3<br>
+            Eduardo / Faxineiro , Cara do Cafézinho<br>
             
             
         </fieldset>
