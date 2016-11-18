@@ -22,7 +22,7 @@
             padding: 15px;
             text-align: center;
         }
-         div.img:hover > div.desc  {
+        div.img:hover > div.desc  {
             padding: 15px;
             text-align: center;
             display: block;
@@ -31,25 +31,33 @@
 </head>
 <br>
 <fieldset>
-    <h1 style="text-align: center; padding: 0">Promoções do Mês:</h1>
+    <h1 style="text-align: center; padding: 0">Os Melhores do Mercado!</h1>
 </fieldset>
 <div class="img">
-    <a target="_blank" href="img/pcgamer.jpg">
+    <a href="?pg=pcdesc">
         <img src="img/pcgamer.jpg" alt="PC GAMER" width="600" height="400">
     </a>
     <div class="desc">PC GAMER R$1200,00</div>
 </div>
 
 <div class="img">
-    <a target="_blank" href="img/ps4.jpg">
+    <a href="?pg=ps4desc">
         <img src="img/ps4.jpg" alt="PS4" width="600" height="400">
     </a>
     <div class="desc">PS4 R$1800,00</div>
 </div>
 
 <div class="img">
-    <a target="_blank" href="img/xboxone.jpg">
+    <a href="?pg=xboxdesc">
         <img src="img/xboxone.jpg" alt="XBOX One" width="600" height="400">
     </a>
-    <div class="desc">XBOX One R$1560,00</div>
+    <div class="desc">XBOX One R$1600,00</div>
+</div>
+<div>
+    <?php
+    @$pg = $_GET["pg"];
+    if (isset($pg)) {
+        include_once $pg . '.php';
+    }
+    ?>
 </div>
