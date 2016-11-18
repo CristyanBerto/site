@@ -6,7 +6,7 @@
     .s h1 {
         text-align: center;
     }
-    
+
     .d p {
         font-family:Verdana;
         text-align: justify;

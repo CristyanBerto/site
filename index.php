@@ -21,13 +21,15 @@ and open the template in the editor.
                     <li><a class="<?= ($_GET["pg"] == "home" ? "active" : "") ?>" href="?pg=home"><i class="fa fa-home"></i><br> Home</a></li>
                     <li class="dropdown"><a class="<?= ($_GET["pg"] == "produtos" || $_GET["pg"] == "Celulares" || $_GET["pg"] == "Computadores" || $_GET["pg"] == "Notebooks" || $_GET["pg"] == "Acessórios" ? "active" : "") ?>" href="?pg=produtos"><i class="fa fa-dropbox"></i><br>Produtos</a>
                         <ul>
-                            <div class="dropdown-content">
-                                <a class="<?= ($_GET["pg"] == "celulares" ? "active" : "") ?>" href="?pg=faq">Celulares</a>
-                                <a class="<?= ($_GET["pg"] == "mapa" ? "active" : "") ?>" href="?pg=mapa">Computadores</a>
-                                <a class="<?= ($_GET["pg"] == "notebooks" ? "active" : "") ?>" href="?pg=descarte">Notebooks</a>
-                                <a class="<?= ($_GET["pg"] == "consoles" ? "active" : "") ?>" href="?pg=descarte">Consoles</a>
-                                <a class="<?= ($_GET["pg"] == "acessorios" ? "active" : "") ?>" href="?pg=descarte">Acessórios</a>
-                            </div>
+                            <li>
+                                <div class="dropdown-content">
+                                    <a class="<?= ($_GET["pg"] == "celulares" ? "active" : "") ?>" href="?pg=faq">Celulares</a>
+                                    <a class="<?= ($_GET["pg"] == "mapa" ? "active" : "") ?>" href="?pg=mapa">Computadores</a>
+                                    <a class="<?= ($_GET["pg"] == "notebooks" ? "active" : "") ?>" href="?pg=descarte">Notebooks</a>
+                                    <a class="<?= ($_GET["pg"] == "consoles" ? "active" : "") ?>" href="?pg=descarte">Consoles</a>
+                                    <a class="<?= ($_GET["pg"] == "acessorios" ? "active" : "") ?>" href="?pg=descarte">Acessórios</a>
+                                </div>
+                            </li>
                         </ul>
                     </li>
 
