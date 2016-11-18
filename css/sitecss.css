@@ -30,12 +30,14 @@ p {
     height: 60px;
     width: 1000px;
     background-color: #00CED1;
+    z-index: 99; 
 }
 
 #content {
     float: left;
     background: #FFFFFF;
     width: 100%;
+    z-index: 1;
 }
 #aa {
     float: left;

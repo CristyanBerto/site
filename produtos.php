@@ -5,7 +5,6 @@
             border: 1px solid #ccc;
             float: left;
             width: 200px;
-            opacity: 0.3;
         }
 
         div.img:hover{
