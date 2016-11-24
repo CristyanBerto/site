@@ -54,6 +54,7 @@ p {
     height: 100%;
     padding: 0;
     float: right;
+    display: block;
 }
 
 #footer {
@@ -118,4 +119,84 @@ li.dropdown {
     display: block;
 }
 
-/**edicao da home bjs**/
+/****carrega o css para as imagens dos produtos****/
+.boxproduto .boximg{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+
+}
+.boxproduto img {
+    width: 100% ;
+    height: auto; 
+}
+
+.boxproduto .boximg:hover{
+    border: 1px solid #777;
+}
+
+.boxproduto .boxdesc  {
+    padding: 15px;
+    text-align: center;
+    float: left;
+    display: block;
+}
+/****home css ****/
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    inline-box-align: block;
+
+}
+
+div.img:hover{
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+div.desc  {
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+
+/****** Manutencao ******/
+
+.manutencao .manutencaoimg {
+    margin: auto;
+    border: 1px solid #ccc;
+    float: top;
+    width: 500px;
+    
+}
+.manutencao .manutencaoimg img {
+    width: 100%;
+    height: auto;
+}
+.manutencaodesc {
+    display: block;
+    text-align: left;
+    font-size: 10px;
+}
+#magia {
+    background-image: url("../img/bannerpromo.jpg");
+    position: relative;
+    width: 300px;
+    height: 800px;
+}
+.manutencao p {
+    text-align: center;
+}

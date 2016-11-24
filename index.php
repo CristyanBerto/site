@@ -1,3 +1,8 @@
+<?php
+require_once 'dao/DaoCategoria.php';
+$DaoCategoria = DaoCategoria::getInstance();
+$dadosCategoria = $DaoCategoria->listar();
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -23,11 +28,13 @@ and open the template in the editor.
                         <ul>
                             <li>
                                 <div class="dropdown-content">
-                                    <a class="<?= ($_GET["pg"] == "celulares" ? "active" : "") ?>" href="?pg=faq">Celulares</a>
-                                    <a class="<?= ($_GET["pg"] == "mapa" ? "active" : "") ?>" href="?pg=mapa">Computadores</a>
-                                    <a class="<?= ($_GET["pg"] == "notebooks" ? "active" : "") ?>" href="?pg=descarte">Notebooks</a>
-                                    <a class="<?= ($_GET["pg"] == "consoles" ? "active" : "") ?>" href="?pg=descarte">Consoles</a>
-                                    <a class="<?= ($_GET["pg"] == "acessorios" ? "active" : "") ?>" href="?pg=descarte">Acessórios</a>
+                                    <?php
+                                    foreach ($dadosCategoria as $rowCategoria) {
+                                        ?>
+                                        <a href="?pg=produtos&cat=<?=$rowCategoria["id"]?>"><?=$rowCategoria["descricao"]?></a>
+                                        <?php
+                                    }
+                                    ?>
                                 </div>
                             </li>
                         </ul>
@@ -40,6 +47,7 @@ and open the template in the editor.
                                     <a class="<?= ($_GET["pg"] == "faq" ? "active" : "") ?>" href="?pg=faq">FAQ</a>
                                     <a class="<?= ($_GET["pg"] == "mapa" ? "active" : "") ?>" href="?pg=mapa">Mapa de riscos</a>
                                     <a class="<?= ($_GET["pg"] == "descarte" ? "active" : "") ?>" href="?pg=descarte">Programa de descarte</a>
+                                    <a class="<?= ($_GET["pg"] == "manutencao" ? "active" : "") ?>" href="?pg=manutencao">Manutenção</a>
                                 </div>
                             </li>
                         </ul>
@@ -59,7 +67,8 @@ and open the template in the editor.
                     ?>
                 </div>
                 <div id="bb">
-                    <img src="img/bannerpromo.jpg">
+                    <div align="center"><marquee behavior="alternate" repeat="position-x" height="5000px" direction="down"><img src="img/bannerpromo.jpg"></marquee></div>
+<p>
                 </div>
             </div>
             <div id="footer">
