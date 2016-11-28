@@ -67,7 +67,7 @@ and open the template in the editor.
                     ?>
                 </div>
                 <div id="bb">
-                    <div align="center"><marquee behavior="alternate" repeat="position-x" height="5000px" direction="down"><img src="img/bannerpromo.jpg"></marquee></div>
+                    <div align="center"><img src="img/bannerpromo.jpg"></div>
 <p>
                 </div>
             </div>

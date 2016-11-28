@@ -7,9 +7,9 @@ if (!isset($_GET["cat"]) || empty($_GET["cat"])) {
     $dadosProduto = $DaoProduto->listarPorMarca($_GET["cat"]);
 }
 ?>
-<fieldset>
-    <h1 style="text-align: center; padding: 0">Os Melhores do Mercado!</h1>
-</fieldset>
+<div class="titulo">
+    <h1>Os Melhores do Mercado!</h1>
+</div>
 <?php
 foreach ($dadosProduto as $rowProduto) {
     ?>
