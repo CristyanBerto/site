@@ -15,7 +15,7 @@ foreach ($dadosProduto as $rowProduto) {
                 <img src="http://127.0.0.1/software/fotos/<?= $rowProduto["imagem"] ?>" width="300" height="200">
             </a>
             <div class="desc">
-                <?= $rowProduto["nome"] ?> <br>
+                <?= $rowProduto["descricao"] ?> <br>
                 R$ <?= $rowProduto["preco"] ?>
             </div>
         </div>
