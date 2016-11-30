@@ -2,7 +2,9 @@
 <h1 style="text-align: center;">Fundação:</h1>
 </div>
 <div>
-<p style="text-indent: 10px;">Empresa criada na data de 01/07/2016 por 4 alunos do SENAI em parceria com o professor Junior Perfoll.</p>
+<p style="text-indent: 10px;"> 
+A Pesadão Informática iniciou as atividades no dia 01 de julho de 2016, por 4 alunos do SENAI em parceria com o professor Junior Perfoll, com o objetivo de fornecer produtos de qualidade com ótimos preços e atendimento diferenciado. A loja possui uma estrutura moderna e ampla, o que facilita na prestação de serviços e atendimento ao cliente.
+Atendemos tanto empresas, de pequeno e grande porte, quanto usuários domésticos.</p>
 </div>
 <br>
 <div>
