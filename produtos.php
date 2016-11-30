@@ -15,9 +15,8 @@ foreach ($dadosProduto as $rowProduto) {
     ?>
     <div class="boxproduto">
         <div class="boximg">
-        <a href="?pg=detalhes&id=<?= $rowProduto["id_produto"] ?>">
             <img src="http://127.0.0.1/software/fotos/<?= $rowProduto["imagem"] ?>">
-        </a>
+ 
         <div class="boxdesc">
             <?= $rowProduto["descricao"] ?> <br/>
             R$ <?= $rowProduto["preco"] ?>
