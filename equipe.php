@@ -16,7 +16,7 @@
             Cristyan / Vendedor, Atendente<br>
             Douglas / Técnico de Hardware<br>
             Vitor / Técnito de Software<br>
-            Eduardo / Faxineiro , Cara do Cafézinho<br>
+            Eduardo / Dono da loja<br>
 
 
         </fieldset>
