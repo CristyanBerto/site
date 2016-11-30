@@ -15,6 +15,7 @@ and open the template in the editor.
         <title>Pesadão Eletrônicos</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/sitecss.css" type="text/css"> 
+        <link rel="icon" href="img/inhegascartoon.jpg" type="image/x-icon"/>    
     </head>
     <body>
         <div id="wrapper">
@@ -31,7 +32,7 @@ and open the template in the editor.
                                     <?php
                                     foreach ($dadosCategoria as $rowCategoria) {
                                         ?>
-                                        <a href="?pg=produtos&cat=<?=$rowCategoria["id"]?>"><?=$rowCategoria["descricao"]?></a>
+                                        <a href="?pg=produtos&cat=<?= $rowCategoria["id"] ?>"><?= $rowCategoria["descricao"] ?></a>
                                         <?php
                                     }
                                     ?>
@@ -68,7 +69,7 @@ and open the template in the editor.
                 </div>
                 <div id="bb">
                     <div align="center"><img src="img/bannerpromo.jpg"></div>
-<p>
+                    <p>
                 </div>
             </div>
             <div id="footer">
