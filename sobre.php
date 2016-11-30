@@ -37,3 +37,8 @@
     <img src="img/televisor2.jpg" style="height: auto; width: 100%;">
 <p style="text-indent: 10px;">TV LED 20" Philco PH20U21D HD com Conversor Digital 2 HDMI 1 USB 60Hz </p>
 </div>
+<Br>
+<div style="float: left; width: 200px; margin: 5px; border:1px solid #ccc;">
+    <img src="img/roteador.jpg" style="height: auto; width: 100%;">
+<p style="text-indent: 10px;">Roteador Wireless Tp-Link TL-WR840N 300Mbps 2.4Ghz Duas Antenas</p>
+</div>
